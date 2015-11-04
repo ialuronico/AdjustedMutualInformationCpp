@@ -28,6 +28,6 @@ valAMIcpp = AMIcpp(A,B);
 
 tCpp = toc;
 
-disp(['AMImatlab = ' num2str(valAMImatlab) ' in ' num2str(tMatlab)]);
-disp(['AMIcpp = ' num2str(valAMIcpp) ' in ' num2str(tCpp)]);
+disp(['AMImatlab = ' num2str(valAMImatlab) ' in ' num2str(tMatlab) ' seconds']);
+disp(['AMIcpp = ' num2str(valAMIcpp) ' in ' num2str(tCpp) ' seconds']);
 disp(['Speedup = ' num2str(tMatlab/tCpp)]);
